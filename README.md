@@ -56,7 +56,7 @@ user-feedback-system/
 
 ### 🔧 Backend
 
-cd backend
+cd server
 npm install
 
 ### Create a .env file inside /backend
@@ -69,7 +69,7 @@ npm run dev
 
 ### 🔧 Frontend
 
-cd frontend
+cd client
 npm install
 npm run dev
 
