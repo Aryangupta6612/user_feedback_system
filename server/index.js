@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://user-feedback-system-1-fdiz.onrender.com/',
   credentials:true,
 }));
 app.use(express.json());
