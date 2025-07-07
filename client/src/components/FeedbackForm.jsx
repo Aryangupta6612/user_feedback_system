@@ -29,7 +29,7 @@ function FeedbackForm() {
     }
 
     try {
-      await axios.post('http://localhost:3000/feedback', form, { withCredentials: true });
+      await axios.post('https://user-feedback-system-1-fdiz.onrender.com/feedback', form, { withCredentials: true });
       setMessage('Feedback submitted successfully!');
       setForm({ userName: '', email: '', text: '', category: 'suggestion' });
       window.location.reload();
